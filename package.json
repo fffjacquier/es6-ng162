@@ -1,9 +1,9 @@
 {
-  "name": "kpler-test-js",
+  "name": "es6-ng-test-js",
   "private": true,
   "version": "0.1.0",
-  "description": "KPLER test js for AngularJS",
-  "repository": "https://bitbucket.org/MarcBT/kpler-js-test-francois-jacquier/",
+  "description": "ES6 test for AngularJS",
+  "repository": "https://github.com/fffjacquier/es6-ng162",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",

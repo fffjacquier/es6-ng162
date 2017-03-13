@@ -1,8 +1,8 @@
 {
-  "name": "ng-kpler-js-test",
+  "name": "es6-ng-js-test",
   "description": "ES6 test project with AngularJS",
   "version": "0.0.0",
-  "homepage": "",
+  "homepage": "https://github.com/fffjacquier/es6-ng162",
   "license": "MIT",
   "private": true,
   "dependencies": {
