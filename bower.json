@@ -1,0 +1,15 @@
+{
+  "name": "ng-kpler-js-test",
+  "description": "ES6 test project with AngularJS",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.6.x",
+    "angular-mocks": "1.6.x",
+    "angular-resource": "1.6.x",
+    "angular-route": "1.6.x",
+    "bootstrap": "3.3.x"
+  }
+}

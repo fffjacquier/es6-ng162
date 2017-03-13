@@ -1,0 +1,33 @@
+<div class="marginT">
+	<div class="col-xs-8">
+		<form novalidate>
+			<fieldset>
+				<input data-ng-model="$ctrl.model.countryName" type="text" class="form-control" placeholder="Type a country name" data-ng-change="$ctrl.updateList($ctrl.model.countryName)" />
+			</fieldset>
+		</form>
+	</div>
+    <div class="col-xs-4">
+		<p>
+			<select class="form-control" ng-model="$ctrl.orderProp">
+				<option value="name">sort by Alphabetical</option>
+				<option value="population">sort by Population</option>
+			</select>
+		</p>
+    </div>
+	<div class="clearfix"></div>
+</div>
+
+<div class="marginT">
+
+	<div class="col-xs-12 col-md-6 alpha omega pull-right">
+		<div id="map" class="col-xs-12 alpha omega"></div>
+	</div>
+
+	<div class="col-xs-12 col-md-6 alpha omega pull-left">
+		<div 
+			class="col-xs-6 text-center panel panel-default list" 
+			data-ng-repeat="country in $ctrl.countries | orderBy:$ctrl.orderProp:($ctrl.orderProp === 'population') | filter:{name:$ctrl.model.countryName}">
+				<country country="country" map="$ctrl.map"></country>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,1 @@
+angular.module('countryList', ['core.country','core.map']);
